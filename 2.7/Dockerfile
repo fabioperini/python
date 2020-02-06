@@ -13,6 +13,8 @@ RUN apt-get update \
         wget \
 #        build-essential \
         tcptraceroute \
+        gcc \
+        g++ \
     && pip install --upgrade pip \
     && pip install gunicorn \ 
     && pip install virtualenv \
